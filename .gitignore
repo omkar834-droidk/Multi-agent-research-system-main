@@ -1,2 +1,39 @@
-TAVILY_API_KEY=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
-MISTRAL_API_KEY=5WpvWJ5re2WfyUrsyqSV0eEVBOjMvUuB 
+# Environment Variables
+.env
+.env.*
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated Reports
+reports/
+output/
+downloads/
+
+# Build
+dist/
+build/
